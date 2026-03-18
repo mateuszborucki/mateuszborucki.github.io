@@ -36,7 +36,7 @@ jobs:
       - name: Generate
         run: npm run generate
         env:
-          NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+          NUXT_APP_BASE_URL: /
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
